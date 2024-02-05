@@ -6,13 +6,13 @@ const response = await ollama.chat({
   messages: [
     {
       role: 'system',
-      content: 'Always answer in spain language, please'
+      content: 'Always answer in spanish language, please'
 
     },
     {
       role: 'user',
-      content: '¿Quién es la actriz, como se llama?',
-      images: ['./image3.jpg']
+      content: '¿Quiénes son los personajes?',
+      images: ['./1200_800.jpg']
     }
   ]
 })
