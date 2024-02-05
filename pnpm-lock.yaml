@@ -1,0 +1,22 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  ollama:
+    specifier: ^0.4.5
+    version: 0.4.5
+
+packages:
+
+  /ollama@0.4.5:
+    resolution: {integrity: sha512-3KWemWnYnzUpocOaf4ut1AQIHNustlieNVDsYwSU9v4avHIbGKeJ5XHdueyTFCPVvb/nDycywXwBJKc1auPr3Q==}
+    dependencies:
+      whatwg-fetch: 3.6.20
+    dev: false
+
+  /whatwg-fetch@3.6.20:
+    resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
+    dev: false
